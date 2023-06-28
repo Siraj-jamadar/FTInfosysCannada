@@ -1,0 +1,64 @@
+.footer {
+  background: #222222;
+  min-height: 18.75rem;
+  height: 100%;
+  padding: 7.5rem;
+}
+
+.foot-title {
+  text-align: left;
+  font-family: Raleway-Bold;
+  font-size: 1.5rem;
+  color: #f7f7f7;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.foot-title::after {
+  color: #ed1b24;
+  content: '';
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+  right: 0;
+  background: #ed1b24;
+  height: 5px;
+  width: 3.75rem;
+  border-radius: 5px;
+}
+
+.foot-content {
+  text-align: left;
+  font-family: Raleway-Regular;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+  opacity: 1;
+  padding-top: 0.625rem;
+}
+
+.foot-cont-pad {
+  padding: 0.625rem 3.125rem 0 0;
+}
+
+.foot-flex-align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo-container {
+  width: 10rem;
+  height: 4rem;
+}
+
+@media screen and (max-width: 775px) {
+  .foot-flex-align-center {
+    justify-content: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 3.5rem;
+  }
+}

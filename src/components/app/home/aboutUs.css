@@ -1,0 +1,137 @@
+.about-us-section {
+  background: #f7f7f7;
+  padding: 6.25rem 7.5rem;
+}
+
+.about-us-image-col {
+  display: flex;
+  align-items: center;
+}
+
+.contact-details-other-col {
+  margin-top: 0.75rem;
+}
+
+.contact-us-card-div {
+  background: #ffffff;
+  border-radius: 0.625rem;
+  padding: 1rem;
+}
+
+.contact-detail-other-head {
+  font-family: Raleway-Bold;
+  font-size: 1.25rem;
+  color: #0e1f51;
+}
+
+.contact-detail-other-subhead {
+  font-family: Raleway-Medium;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 0.25rem;
+}
+
+.contact-detail-other-value {
+  font-family: Raleway-Bold;
+  font-size: 1rem;
+  color: #ed1b24;
+}
+
+.service-description-col {
+  display: flex;
+  align-items: center;
+}
+
+.service-keyword-text {
+  font-family: Raleway-Bold;
+  font-size: 1.5rem;
+  color: #ed1b24;
+  margin-bottom: 1rem;
+}
+
+.service-title {
+  font-family: Raleway-Bold;
+  font-size: 2.5rem;
+  color: #0e1f51;
+  margin-bottom: 1rem;
+  word-break: break-word;
+}
+
+.service-subhead {
+  font-family: Raleway-Bold;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.service-desc {
+  font-family: Raleway-SemiBold;
+  font-size: 1rem;
+  color: #000000;
+  line-height: 1.625rem;
+}
+
+.vision-mission-section {
+  background: #ffffff;
+  padding: 4rem 6rem;
+}
+
+.vision-div {
+  background: #f7f7f7;
+  border-radius: 0.625rem;
+  padding: 2rem 2rem 5rem 2rem;
+  min-height: 15.625rem;
+}
+
+.vision-text {
+  color: #0e1f51;
+  font-family: Raleway-ExtraBold;
+  font-size: 1.25rem;
+  margin: 1rem 0 0.5rem 0;
+  position: relative;
+}
+
+.vision {
+  font-family: Raleway-Medium;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 1.5rem;
+  width: 75%;
+  line-height: 1.625rem;
+}
+
+.our-values-head {
+  margin: 4rem 0 2rem 0;
+  text-align: center;
+}
+
+.our-values-div {
+  background: #f7f7f7;
+  border-radius: 0.625rem;
+  padding: 2rem 2rem 5rem 2rem;
+  min-height: 9.375rem;
+}
+
+.our-value {
+  font-family: Raleway-Medium;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 1.5rem;
+  width: 100%;
+  line-height: 1.625rem;
+}
+
+@media screen and (max-width: 500px) {
+  .about-us-section {
+    padding: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .vision-mission-section {
+    padding: 2rem;
+  }
+
+  .vision {
+    width: 100%;
+  }
+}

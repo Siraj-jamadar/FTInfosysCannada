@@ -1,0 +1,27 @@
+.our-services {
+  background: #ffffff;
+  padding: 6rem 9rem;
+}
+
+.offer-list {
+  margin: 0;
+  padding-inline-start: 1.5rem;
+  line-height: 3rem;
+  font-family: Cabin-SemiBold;
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+@media screen and (max-width: 920px) {
+  .our-services {
+    background: #ffffff;
+    padding: 4rem 6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .our-services {
+    background: #ffffff;
+    padding: 4rem 2rem;
+  }
+}
